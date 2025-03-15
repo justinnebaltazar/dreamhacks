@@ -13,9 +13,7 @@ export const Navbar = () => {
 
                <ul className={styles.navLinks}>
                     
-                    <li>
-                        <Link className={styles.links} to='/NewsFeed'>News Feed</Link>
-                    </li>
+                
                     <li>
                         <Link className={styles.links} to='/About'>About</Link>
                     </li>
