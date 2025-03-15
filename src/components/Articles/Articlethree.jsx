@@ -1,32 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "./Articlethree.module.css";
 
-function Popup() {
-    const [visible, setVisible] = useState(false);
 
-    useEffect(() => {
-        function showPopup() {
-            setVisible(true);
-            setTimeout(() => setVisible(false), 500); // Hide after 3s
-            schedulePopup();
-        }
-
-        function schedulePopup() {
-            const randomTime = Math.floor(Math.random() * (10000 - 1000 + 1)) + 1000;
-            setTimeout(showPopup, randomTime);
-        }
-
-        schedulePopup(); // Start pop-up cycle on mount
-    }, []);
-
-    return (
-        <div className={`${styles.popup} ${visible ? styles.show : ""}`}>
-            BREAKING: Another politician just thought about fraud!
-        </div>
-    );
-}
-
-export default Popup;
 
 export const ArticleThree = () => {
     return (
@@ -38,7 +13,7 @@ export const ArticleThree = () => {
                     <p>In an unprecedented leap forward for investigative journalism (and potentially law enforcement), mind-reading journalist from REM News has uncovered the deepest, darkest secrets of the political elite. After a week of telepathically snooping through the minds of high-ranking officials, the journalist has released shocking data: 79% of politicians spend a disturbing amount of time daydreaming about committing fraud "for fun."</p>
 
                     <h2>THE WILD THOUGHTS OF THE POLITICAL ELITE</h2>
-                    <Popup />
+    
                     <ul>
                         <li><strong>"What if I create a fake country and apply for UN funding?"</strong> - Thought by an unnamed world leader who was also mentally designing a flag for his imaginary nation.</li>
                         <li><strong>"Could I legally marry myself for tax benefits?"</strong> - A governor who shall remain nameless, but whose wedding invitations are already mentally drafted.</li>
@@ -58,8 +33,7 @@ export const ArticleThree = () => {
                 </div>
             </div>
 
-            <Popup /> 
-
+    
         </section>
     );
 };
