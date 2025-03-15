@@ -7,6 +7,7 @@ import { LoginPage } from "./components/LoginPage/LoginPage";
 import { About } from './components/About/About';
 import HomeWrapper from './components/HomeWrapper/HomeWrapper';
 import { NewsFeed } from './components/NewsFeed/NewsFeed';
+import { ArticleOne } from './components/Articles/Articleone';
 
 function App() {
 
@@ -39,6 +40,12 @@ function App() {
           </>
         }/>
         
+        {/* article one - spotlight */}
+        <Route path="/article-one" element={
+          <>
+            <ArticleOne/>
+          </>
+        }/>
       </Routes>
     </div>
     </BrowserRouter>
