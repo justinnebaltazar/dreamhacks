@@ -31,7 +31,6 @@
     flex-direction: column;
     margin: 15px;;
     height:100%;
-    width: 80%;
     justify-content: center;
     text-align: left;
 
@@ -43,4 +42,8 @@
     align-items: center;
     justify-content: center;
 
+}
+
+.articletext{
+    width: 70%
 }

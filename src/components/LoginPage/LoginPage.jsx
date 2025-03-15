@@ -35,26 +35,28 @@ export const LoginPage = () => {
     return (
         <div id="grad">
             <div className={styles.container}>
-                <h2 className={styles.title}>Login</h2>
-                <br></br>
-                <p>{message && <>{message}</>}</p>
-                <form onSubmit={handleSubmit}>
-                    <input
-                    className={styles.searchbar}
-                    onChange={(e) => setEmail(e.target.value)}
-                    value={email}
-                    type="email" placeholder="Email" required/>
+                <div className={styles.boxcontainer}>
+                    <h2 className={styles.title}>Login</h2>
                     <br></br>
-                    <input 
-                    className={styles.searchbar}
-                    onChange={(e) => setPassword(e.target.value)}
-                    value={password}
-                    type="password" placeholder="Password" required/>
+                    <p>{message && <>{message}</>}</p>
+                    <form onSubmit={handleSubmit}>
+                        <input
+                        className={styles.searchbar}
+                        onChange={(e) => setEmail(e.target.value)}
+                        value={email}
+                        type="email" placeholder="Email" required/>
+                        <br></br>
+                        <input 
+                        className={styles.searchbar}
+                        onChange={(e) => setPassword(e.target.value)}
+                        value={password}
+                        type="password" placeholder="Password" required/>
+                        <br></br>
+                        <button className={styles.button} type="submit">Login</button>
+                    </form>
                     <br></br>
-                    <button className={styles.button} type="submit">Login</button>
-                </form>
-                <br></br>
-                <p>Don't have an account? <Link className={styles.link} to='/register'>Register</Link></p>
+                    <p>Don't have an account? <Link className={styles.link} to='/register'>Register</Link></p>
+                </div>
             </div>
         </div>
 

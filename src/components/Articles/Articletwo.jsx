@@ -15,23 +15,25 @@ export const ArticleTwo = () => {
                 <div className={styles.title}>
                 </div>
                 <div className={styles.article}>
-                    {!isVisible && <h1>REM News: The Dream That Became Headlines</h1>}
-                    {!isVisible && <div>
+                    {!isVisible && <h1>Waking Up Late: A Relatable Struggle</h1>}
+                    {!isVisible && <div className={styles.articletext}>
                         <p>
-                        In Canada, there's a news outlet like no other: REM News, where the stories come straight from the dreams of unsuspecting Canadians. Using top-secret tech, they scan brain waves while people sleep and then share their wildest, weirdest dreams with the world. Think of it as journalism, but with way more pajamas involved.
+                        Waking up late is something almost everyone experiences at some point. Maybe you stayed up too late, forgot to set your alarm, or hit the snooze button one too many times. No matter the reason, it’s easy to feel rushed and a little stressed when you realize you’ve overslept.
                         </p>
                         <br></br>
                         <p>
-                        “We believe dreams hold the answers to society’s biggest questions,” says REM News, conveniently skipping the whole "asking permission" part. They’ve posted everything from politicians dreaming of giant waffles to someone else having a nightmare about being late to a Zoom call.
+                        When this happens, the best thing to do is stay calm. Take a moment to breathe and focus on what needs to get done first. Prioritize the essentials—whether that’s getting ready quickly, grabbing something small to eat, or making sure you’re on time for important tasks. A clear head makes it easier to catch up.
                         </p>
                         <br></br>
                         <p>
-                        Critics? Oh, they've got them. “This is illegal and invasive!” says one outraged privacy group. But REM News responds with a grin: “We know what you dreamed about last night... and we're totally posting it.” They've even promised a scoop on a government official who dreamed about a public uprising. Drama? Check.
+                        Remember, one late start doesn’t ruin the entire day. Be kind to yourself, adjust your schedule if you need to, and move forward. Sometimes, a slow morning can still lead to a productive and positive day!
+
+If waking up late is becoming a habit, it might be time to look at your nighttime routine. Try going to bed a little earlier, limiting screen time before sleep, or setting multiple alarms. Small changes can make a big difference in helping you feel rested and ready to start the day on time.
                         </p>
                         <br></br>
                         <p>
-                        Is it ethical? Probably not. Is it entertaining? Definitely. Just know, next time you sleep, REM News might be there—watching, recording, and ready to share your dream about being chased by a giant donut with the world.
-                        </p>
+                        At the end of the day, everyone has off mornings. What matters is how you handle them and keep going. Life isn’t about being perfect—it’s about learning, improving, and doing your best, even after a late wake-up.
+                     </p>
                     </div> }
                 </div>
             </div>
