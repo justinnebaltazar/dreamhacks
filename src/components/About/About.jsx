@@ -8,7 +8,7 @@ export const About = () => {
                 
                   
                 <div className = {styles.textContainer}>
-                <p className={styles.About}><h1>About:</h1></p>
+                <h1>About:</h1>
                     <p>
                     REM news came about thanks to a generous donation from SBC (Sleep Board of Canada).   </p>
                     
@@ -19,7 +19,7 @@ export const About = () => {
                     
                     </div>
 
-                <div class = {styles.Quote}>
+                <div className = {styles.Quote}>
                 <p>"It came to our journalists in a dream" </p>
                 
                 </div>
