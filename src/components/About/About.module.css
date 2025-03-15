@@ -21,7 +21,7 @@
     animation: rotateAnimation 3s linear infinite
 }
 
-.About.h1{
+.About{
     font-size: xx-large;
     border: transparent;
 }

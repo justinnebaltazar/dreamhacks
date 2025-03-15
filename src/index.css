@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 
 body {
@@ -19,11 +20,15 @@ body {
   
   min-width: 320px;
   min-height: 100vh;
+  margin: 0;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-shadow: 3px 3px 0px #066F7B, 
+                 6px 6px 0px #034249;
+    font-size: 3.2em;
 }
 
 button {
