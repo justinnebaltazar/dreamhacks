@@ -8,8 +8,8 @@ export const About = () => {
 
                     <h2>About:</h2>
                 <div className = {styles.textContainer}>
-                <p>
-                    REM news came about thanks to a generous donation from SBC (Sleep board of Canada). 
+                    <p>
+                    REM news came about thanks to a generous donation from SBC (Sleep Board of Canada). 
                     REM news sources our news directly from the dreams of Canadians through proprietary 
                     software that unknowingly scans the Brain waves of Canadians as they sleep. 
                     </p>

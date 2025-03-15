@@ -3,11 +3,19 @@
     background: transparent;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: white;
+    justify-content: left;
+    justify-items: left;
   }
 
-.textContainer{
+  h2{
+    text-align: left;
+    
+  }
+
+  .textContainer {
     width: 80%;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
 }
