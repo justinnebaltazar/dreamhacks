@@ -6,6 +6,7 @@ import { RegisterPage } from "./components/RegisterPage/RegisterPage";
 import { LoginPage } from "./components/LoginPage/LoginPage";
 import { About } from './components/About/About';
 import HomeWrapper from './components/HomeWrapper/HomeWrapper';
+import { NewsFeed } from './components/NewsFeed/NewsFeed';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
            <HomeWrapper>
             <Navbar/>
             <About/>
+            <NewsFeed/>
           </HomeWrapper>
         }
         />
