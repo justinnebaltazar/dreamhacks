@@ -1,0 +1,30 @@
+.container {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    position: relative;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.content {
+    position: relative;
+    padding: 20px;
+}
+
+.revealedArea {
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(
+      circle 280px at 50% 50%,
+      transparent 10%,
+      rgba(0, 0, 0, 0.98)
+    );
+    pointer-events: none;
+  }
