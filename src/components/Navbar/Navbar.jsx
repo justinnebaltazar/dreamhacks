@@ -18,7 +18,7 @@ export const Navbar = () => {
                     </li>
 
                     <li>
-                        <Link className={styles.links} to='/LoginPage'>Log In</Link>
+                        <Link className={styles.links} to='/Login'>Log In</Link>
                     </li>
 
                     <li>
