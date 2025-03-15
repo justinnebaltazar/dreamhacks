@@ -15,7 +15,7 @@ export const About = () => {
                     <p>REM news sources our news directly from the dreams of Canadians through proprietary 
                     software that unknowingly scans the Brain waves of Canadians as they sleep. </p>
                     
-                    <p>Critics of our work have claimed that REM news's practices are "invasive" and "illegal", to them we say we know what you were dreaming about last night and we will release it to the public </p>
+                    <p>Critics of our work have claimed that REM news's practices are "invasive" and "illegal", to them we say we know what you were dreaming about last night and we will release it to the public. </p>
                     
                     </div>
 
