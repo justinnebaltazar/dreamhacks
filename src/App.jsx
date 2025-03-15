@@ -10,6 +10,7 @@ import { NewsFeed } from './components/NewsFeed/NewsFeed';
 import { ArticleOne } from './components/Articles/Articleone';
 import { Question } from './components/Question/Question';
 import { ArticleTwo } from './components/Articles/Articletwo';
+import { ArticleThree } from './components/Articles/Articlethree';
 
 function App() {
 
@@ -54,6 +55,13 @@ function App() {
           <>
             <ArticleTwo/>
           </>
+        }/>
+
+        {/* article three - alarm */}
+        <Route path="/article-three" element={
+          <HomeWrapper>
+            <ArticleThree/>
+          </HomeWrapper>
         }/>
 
         {/* question page after login */}
