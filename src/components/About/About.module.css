@@ -5,17 +5,33 @@
     flex-direction: column;
     color: white;
     justify-content: left;
-    justify-items: left;
+    align-items: left;
   }
 
-  h2{
-    text-align: left;
-    
-  }
-
+  
   .textContainer {
     width: 80%;
     display: flex;
     flex-direction: column; 
     align-items: flex-start; 
+    border: 2px solid white; /* Correct border syntax */
+    padding-left: 10px;
+    
+}
+.textContainer:hover {
+    animation: rotateAnimation 3s linear infinite
+}
+
+.About{
+    font-size: 50px;
+    border: transparent;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
