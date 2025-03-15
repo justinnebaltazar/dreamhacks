@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanuman", sans-serif;
+    align-items: center;
+    width: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left {
+    display: flex;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto; 
+    margin-right: 0;
+    font-size: auto;
+    gap: 1rem;
+}
