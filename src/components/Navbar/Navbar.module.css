@@ -1,6 +1,9 @@
 
 .container {
+    margin: 0;
+    padding: 0;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
@@ -17,6 +20,27 @@
     flex-direction: row;
     margin-left: auto; 
     margin-right: 0;
-    font-size: auto;
+}
+
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
     gap: 1rem;
+}
+
+.navLinks .links {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+    font-size: 1.2rem;
+}
+
+.navLinks .links:hover {
+    color:#22775A;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
