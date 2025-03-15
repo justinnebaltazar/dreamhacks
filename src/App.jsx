@@ -5,6 +5,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { RegisterPage } from "./components/RegisterPage/RegisterPage";
 import { LoginPage } from "./components/LoginPage/LoginPage";
 import { About } from './components/About/About';
+import HomeWrapper from './components/HomeWrapper/HomeWrapper';
 
 function App() {
 
@@ -14,10 +15,10 @@ function App() {
       <Routes>
         {/* home page */}
         <Route path="/" element={
-          <>
+           <HomeWrapper>
             <Navbar/>
             <About/>
-          </>
+          </HomeWrapper>
         }
         />
 
