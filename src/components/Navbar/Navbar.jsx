@@ -6,10 +6,13 @@ export const Navbar = () => {
     return (
         <div className={styles.container}>
             <div className={styles.left}>
+                <img className = {styles.logo} src="images\Logo\logo2.png"></img>
                 <h1>REM News</h1>
             </div>
             <div className={styles.right}>
+
                <ul className={styles.navLinks}>
+                    
                     <li>
                         <Link className={styles.links} to='/NewsFeed'>News Feed</Link>
                     </li>

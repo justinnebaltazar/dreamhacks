@@ -11,15 +11,20 @@
 
 .left {
     display: flex;
+    align-items: center;
     margin-left: 0;
     margin-right: auto;
+    width: 80%;
+    padding-left: 15%;
 }
 
 .right {
     display: flex;
+    align-items: center;
     flex-direction: row;
     margin-left: auto; 
     margin-right: 0;
+    width: 80%;
 }
 
 
@@ -29,6 +34,7 @@
     text-decoration: none;
     list-style-type: none;
     gap: 1rem;
+    width: 80%;
 }
 
 .navLinks .links {
@@ -43,4 +49,10 @@
     color:#22775A;
     transform: scale(1.1);
     transition: 0.3s;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    filter: invert(1) grayscale(1);
 }
