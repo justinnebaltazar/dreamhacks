@@ -4,17 +4,14 @@ import { NewsCard } from "../NewsCard/NewsCard";
 
 export const NewsFeed = () => {
     return (
-        <section>
+        <section className={styles.container}>
             <div className={styles.header}>
                 <h1>News</h1>
                 <p>This week's most popular articles</p>
             </div>
-            <div >
+            <div className={styles.newsContainer}>
                 {news.map((newsItem, id) => (
-                    <div className={styles.newsContainer} key={id}>
-                        <NewsCard key={id} news={newsItem} isFirst={id === 0}/>
-                    </div>
-
+                    <NewsCard className={styles.news} key={id} news={newsItem} isFirst={id === 0}/>
                 ))}
             </div>
             

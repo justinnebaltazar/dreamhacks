@@ -14,7 +14,7 @@ export const Question = () => {
         const formattedAnswer = answer.trim().toLowerCase();
         
         if (formattedAnswer === "red") {
-            navigate("/article-one");
+            navigate("/");
         } else {
             // Wrong answer - show error
             setError("Incorrect. Please try again.");

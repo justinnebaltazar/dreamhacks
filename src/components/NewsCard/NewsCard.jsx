@@ -15,3 +15,4 @@ export const NewsCard = ({ news : {title, datePublished, author, description, fi
         </div>
     )
 }
+

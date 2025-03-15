@@ -26,7 +26,7 @@ export const LoginPage = () => {
         }
 
         if (data) {
-            navigate("/news-feed");
+            navigate("/question");
             return null;
         }
         
