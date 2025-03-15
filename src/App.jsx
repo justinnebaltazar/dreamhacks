@@ -7,7 +7,6 @@ import { LoginPage } from "./components/LoginPage/LoginPage";
 import { About } from './components/About/About';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return ( 
     <BrowserRouter>
