@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar/Navbar";
 import { RegisterPage } from "./components/RegisterPage/RegisterPage";
 import { LoginPage } from "./components/LoginPage/LoginPage";
+import { About } from './components/About/About';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={
           <>
             <Navbar/>
+            <About/>
           </>
         }
         />
