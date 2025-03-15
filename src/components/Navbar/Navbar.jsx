@@ -23,7 +23,7 @@ export const Navbar = () => {
                     </li>
 
                     <li>
-                        <Link className={styles.links} to='/RegisterPage'>Sign up</Link>
+                        <Link className={styles.links} to='/register'>Sign up</Link>
                     </li>
          
                </ul>
