@@ -5,17 +5,22 @@
     flex-direction: column;
     color: white;
     justify-content: left;
-    justify-items: left;
+    align-items: left;
   }
 
-  h2{
-    text-align: left;
-    
-  }
+  
 
   .textContainer {
     width: 80%;
     display: flex;
     flex-direction: column; 
     align-items: flex-start; 
+    border: 2px solid white; /* Correct border syntax */
+    padding-left: 10px;
+    
+}
+
+.About{
+    font-size: 50px;
+    border: transparent;
 }
