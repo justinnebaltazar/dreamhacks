@@ -8,7 +8,7 @@ export const About = () => {
                 
                   
                 <div className = {styles.textContainer}>
-                <p className={styles.About}>About:</p>
+                <p className={styles.About}><h1>About:</h1></p>
                     <p>
                     REM news came about thanks to a generous donation from SBC (Sleep Board of Canada).   </p>
                     

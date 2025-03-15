@@ -14,7 +14,6 @@
     display: flex;
     flex-direction: column; 
     align-items: flex-start; 
-    border: 2px solid white; /* Correct border syntax */
     padding-left: 10px;
     
 }
@@ -22,13 +21,17 @@
     animation: rotateAnimation 3s linear infinite
 }
 
-.About{
-   
+.About.h1{
+    font-size: xx-large;
     border: transparent;
 }
 
 .Quote{
     font-size: large;
+    text-shadow: 3px 3px 0px #066F7B, 
+                 6px 6px 0px #034249;
+    font-size: 3.2em;
+    font-weight: bold;
 }
 
 .Quote:hover{
