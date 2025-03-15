@@ -19,9 +19,11 @@ export const About = () => {
                     
                     </div>
 
-
-                    <h2>"It came to our journalists in a dream" </h2>
+                <div class>
+                <h2>"It came to our journalists in a dream" </h2>
                 
+                </div>
+                   
             </div>
         </section>
     )

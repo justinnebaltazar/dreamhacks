@@ -9,7 +9,6 @@
   }
 
   
-
   .textContainer {
     width: 80%;
     display: flex;
@@ -19,8 +18,20 @@
     padding-left: 10px;
     
 }
+.textContainer:hover {
+    animation: rotateAnimation 3s linear infinite
+}
 
 .About{
     font-size: 50px;
     border: transparent;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
