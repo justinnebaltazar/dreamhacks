@@ -9,6 +9,7 @@ import HomeWrapper from './components/HomeWrapper/HomeWrapper';
 import { NewsFeed } from './components/NewsFeed/NewsFeed';
 import { ArticleOne } from './components/Articles/Articleone';
 import { Question } from './components/Question/Question';
+import { ArticleTwo } from './components/Articles/Articletwo';
 
 function App() {
 
@@ -45,6 +46,13 @@ function App() {
         <Route path="/article-one" element={
           <>
             <ArticleOne/>
+          </>
+        }/>
+
+        {/* article two - alarm */}
+        <Route path="/article-two" element={
+          <>
+            <ArticleTwo/>
           </>
         }/>
 

@@ -1,0 +1,34 @@
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(-170deg, #117D9A, #04232A);
+    height: 100vh;
+    width: 100vw;
+}
+.button {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}

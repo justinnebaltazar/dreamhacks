@@ -40,26 +40,30 @@ export const RegisterPage = () => {
     return (
         <div className={styles.container}>
             <form className={styles.form} onSubmit={handleSubmit}>
-            <h2 className={styles.title}>register</h2>
+            <h2 className={styles.title}>Register</h2>
             <div className={styles.input}>
-                <label>email</label>
                     <input 
-                    className={styles.inputField}
+                    className={styles.searchbar}
                     onChange={(e) => setEmail(e.target.value)}
                     value={email}
                     type="email" 
                     placeholder="Email" 
                     required/>
-                <label>password</label>
-                    <input className={styles.inputField}
+            </div>
+            <br></br>
+            <div className={styles.input}>
+                    <input className={styles.searchbar}
                     onChange={(e) => setPassword(e.target.value)}
                     value={password}
                     type="password"
                     placeholder="Password"
                     required
                     />
+
+                <br></br>
+                <br></br>
                 <button className={styles.button} type="submit">create account</button>
-                <p>Already have an account?<Link to="/login">Login</Link></p>
+                <p>Already have an account?   <Link to="/login">Login</Link></p>
             </div>
             </form>
         </div>
