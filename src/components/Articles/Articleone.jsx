@@ -35,7 +35,7 @@ export const ArticleOne = () => {
         <section className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <h1 className={styles.title}>this is the text i want to see</h1>
+                    <h2 className={styles.title}>this is the text i want to see</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ipsam explicabo nulla dolore earum labore et magni 
                     ab veniam expedita dolorem accusamus sit similique voluptate impedit, commodi delectus nesciunt fuga.</p>
                 </div>

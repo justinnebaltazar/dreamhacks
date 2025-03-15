@@ -5,6 +5,7 @@
         "author": "Conor Benson",
         "description": "For more than two decades, Engineers Without Borders Canada has empowered leaders, fostered innovation, and supported systemic change to build a more equitable and sustainable world.", 
         "filePath": "news/leadership-photo.png",
+        "pageLink": "/article-one",
         "link": "https://www.ewb.ca/en/news-and-events/news/leadership-update-at-engineers-without-borders-canada/"
 
     }, 
@@ -14,6 +15,7 @@
         "author": "Conor Benson", 
         "description": "This International Volunteer Day, we celebrate the impactful work of Engineers Without Borders Canada (EWB). With over 32 university chapters and 8 professional chapters across the country, EWB empowers a network of passionate volunteers to address the root causes of poverty and inequity worldwide.", 
         "filePath": "news/volunteer-day.png",
+        "pageLink": "/article-two",
         "link": "https://www.ewb.ca/en/news-and-events/news/celebrating-international-volunteer-day-with-engineers-without-borders-canada/"
     },
     {
@@ -22,6 +24,7 @@
         "author": "Conor Benson",
         "description": "With a new school year just around the corner, many of our 20+ EWB academic chapters across Canada have started their recruitment processes. Located at the heart of Ontario, our University of Toronto chapter is busy with recruitment, setting up projects, and preparing for xChange 2024!", 
         "filePath": "news/uoft-spotlight.png",
+        "pageLink": "/article-three",
         "link": "https://www.ewb.ca/en/news-and-events/news/chapter-spotlight-how-uoft-ewb-is-engineering-change-in-toronto/"
     }
 ]

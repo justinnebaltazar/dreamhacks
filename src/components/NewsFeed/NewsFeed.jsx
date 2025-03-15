@@ -7,7 +7,6 @@ export const NewsFeed = () => {
         <section className={styles.container}>
             <div className={styles.header}>
                 <h1>News</h1>
-                <p>This week's most popular articles</p>
             </div>
             <div className={styles.newsContainer}>
                 {news.map((newsItem, id) => (
