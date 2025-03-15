@@ -19,8 +19,8 @@ export const About = () => {
                     
                     </div>
 
-                <div class>
-                <h2>"It came to our journalists in a dream" </h2>
+                <div class = {styles.Quote}>
+                <p>"It came to our journalists in a dream" </p>
                 
                 </div>
                    
