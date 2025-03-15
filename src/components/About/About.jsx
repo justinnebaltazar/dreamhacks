@@ -7,6 +7,7 @@ export const About = () => {
                 <h3>"It came to our journalists in a dream" </h3>
 
                     <h2>About:</h2>
+                <div className = {styles.textContainer}>
                 <p>
                     REM news came about thanks to a generous donation from SBC (Sleep board of Canada). 
                     REM news sources our news directly from the dreams of Canadians through proprietary 
@@ -21,7 +22,7 @@ export const About = () => {
                     </p>
                     <p></p>Critics of our work have claimed that REM news's practices are "invasive" and "illegal", to them we say we know what you were dreaming about last night and we will release it to the public 
                     
-
+                    </div>
                 
             </div>
         </section>

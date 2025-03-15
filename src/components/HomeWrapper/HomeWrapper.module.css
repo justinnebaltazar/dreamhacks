@@ -1,3 +1,5 @@
-.home-wrapper{
+.HomeWrapper{
     background-image: linear-gradient(45deg, black, #066F7B);
+    color: white;
 }
+
