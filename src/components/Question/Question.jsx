@@ -24,9 +24,10 @@ export const Question = () => {
     return (
         <section>
             <div className={styles.container}>
-                <h2>What is the first colour of the rainbow?</h2>
+                <h2 className={styles.question1}>What is the first colour of the rainbow?</h2>
                 <form onSubmit={handleSubmit}>
                     <input
+                        className={styles.question1}
                         type="text"
                         placeholder="Type your answer..."
                         required
