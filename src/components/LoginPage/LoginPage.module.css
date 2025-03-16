@@ -1,9 +1,11 @@
-* {
-    align-items: center;
-    justify-content: center;
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #101F21, #35777E);
 }
 
-.container {
+.boxcontainer {
     display: flex;
     align-items:center;
     justify-content: center;
